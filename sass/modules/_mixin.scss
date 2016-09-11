@@ -1,0 +1,25 @@
+// MIXINY 
+
+// @mixin mobile {
+//     @media #{$mobile} {
+//         @content;
+//     }
+// }
+@mixin tablet {
+    @media #{$tablet} {
+         @content;
+    }
+}
+@mixin desktop {
+    @media #{$desktop} {
+         @content;
+    }
+}
+@mixin iconsFa {
+	position: absolute;
+   	top: 20px;
+}
+@mixin iconsName {
+	position: absolute;
+   	top: 60px;
+}

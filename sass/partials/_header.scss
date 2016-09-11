@@ -1,0 +1,152 @@
+//HEADER AND NAV
+//generals
+.width {
+    @include desktop {
+        width: 1170px;
+        margin: 0 auto;
+    }
+}
+
+header {
+    background-image: $headerBackgroundMobile;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: auto;
+    min-height: 100vh;
+    @include tablet {
+        background-image: $headerBackgroundTablet;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: auto;
+        min-height: 100vh;
+    }
+    @include desktop {
+        background-image: $headerBackgroundDesktop;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    //fonts
+    h1, h2, p {
+    	color: #fff;
+    	text-align: center;
+    }
+    h1 {
+    	margin-top: 80px;
+        font-size: 59px;
+        @include tablet {
+            font-size: 62px;
+        }
+        @include desktop {
+            font-size: 65px;
+        }
+    }
+    h2 {
+        font-size: 31px;
+        @include tablet {
+            font-size: 33px;
+        }
+        @include desktop {
+            font-size: 35px;
+        }
+        margin-bottom: 0;
+    }
+    p {
+    	width: 80%;
+        font-size: 15px;
+        @include tablet {
+            font-size: 16px;
+        }
+        @include desktop {
+            font-size: 17px;
+        }
+    }
+
+    //icons
+	.iconName, .fa {
+		color: #fff;
+	}
+
+    .conteinerText {
+   		display: flex;
+   		flex-direction: column;
+   		align-items: center;
+   	}
+   	.icons {
+   		position: relative;
+   	}
+
+   	.fa {
+   		@include iconsFa;
+   		left: 32px;
+   	}
+   	.iconName {
+   		@include iconsName;
+   		left: 32px;
+   	}
+	
+	#commentIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 31px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 24px;
+   		}
+	}
+	#portfolioIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 30px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 21px;
+   		}
+	}
+	#aboutIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 33px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 29px;
+   		}
+	}
+	#teamIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 30px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 32px;
+   		}
+	}
+	#contactIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 29px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 24px;
+   		}
+	}
+
+	#blogIcon {
+		.fa {
+   			@include iconsFa;
+   			left: 32px;
+   		}
+   		.iconName {
+   			@include iconsName;
+   			left: 34px;
+   		}
+	}
+}

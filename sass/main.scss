@@ -1,0 +1,17 @@
+        /*
+
+SASS
+
+*/
+        
+        //@import 'modules/placeholders';
+        @import 'modules/fonts';
+        @import 'modules/variables';
+        @import 'modules/awesome.min';
+        @import 'modules/mixin';
+        
+
+	@import 'partials/general';
+	@import 'partials/header';
+        @import 'partials/sections';
+        @import 'partials/footer';

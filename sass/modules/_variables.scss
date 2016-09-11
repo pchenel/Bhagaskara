@@ -1,0 +1,48 @@
+ //pictures
+ $headerBackgroundDesktop: url('../images/background1Desktop.png'); //min 1024px
+ $headerBackgroundTablet: url('../images/background1Tablet.png'); //min 768px
+ $headerBackgroundMobile: url('../images/background1Mobile.png'); //max 767px
+ $sectionBackgroundsDesktop: url('../images/background2.png'); //min 767px
+ $sectionBackgroundsMobile: url('../images/background2Mobile.png'); //max 768px
+ $logoWhite: url('../images/logo.png');
+ $logoGrey: url('../images/logo2.png');
+
+ //colors
+ $colorIcon: #9e459a; //violet
+ $color2Icon: #e2e4e5; //lightgrey
+ $colorSliderQ: #919191; //kropki slidera z cytatami
+ $colorBtn: #9f449b; //buttons, paski postępu, do slidera 1, 
+ $colorBackground: #eee; //lightgrey2
+ $colorFontH: #676767; //grey, h2, h1, nav, h3, opisy pod ikonami
+ $color2Font: #9f449b; //violet2, span
+ $colorForm: #222; //formularz, liczby, dane adresowe, skills, przyciski z białym tłem, tytuły w galerii
+ $colorQuotes: #4b4b4b; //cytaty, text przy adresie
+ $colorAutor: #777; //autor cytatu, procenty, oznaczenia w galerii, stanowisko
+ $colorStaff: #484848; //staff
+
+ //fonts
+ $mainFont: 'existence-light', sans-serif;
+ $addressFont: 'lato-bold', sans-serif;
+ $textFont: 'lato-regular', sans-serif;
+ $slimFont: 'lato-hairline', sans-serif;
+ //h1: desktop: 65px; tablet: 62px; mobile: 59px;
+ //h2: desktop: 35px; tablet: 33px; mobile: 31px;
+ //h3: desktop: 18px; tablet: 18px; mobile: 18px;
+ //pHeader: desktop: 17px; tablet: 16px; mobile: 15px; 
+ //nav: 13px;
+ 
+ //breakpoints
+ //$mobile: '(min-width: 600px)';
+ $tablet: '(min-width: 769px)';
+ // $desktop: '(min-width: 1025px)';
+ // $sm: 'min-width: 600px';
+ // $md: 'min-width: 768px';
+ // $lg: 'min-width: 960px';
+ // $xl: 'min-width: 1280px';
+ // $xxl: 'min-width: 1440px';
+ // $hd: 'min-width: 1600px';
+
+ $desktop: '(min-width: 1025px)';
+
+
+ 
