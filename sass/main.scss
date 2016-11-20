@@ -10,7 +10,8 @@ SASS
         @import 'modules/awesome.min';
         @import 'modules/mixin';
         
-
+        
+        @import 'partials/reset';
 	@import 'partials/general';
 	@import 'partials/header';
         @import 'partials/sections';
